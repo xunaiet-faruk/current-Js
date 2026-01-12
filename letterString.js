@@ -1,12 +1,13 @@
-const letter = "Junaiet Faruka";
+const letter = "JunaieAta FAruka";
 let count = 0;
 
-const lowerLetter = letter.toLowerCase();
+const lowerletter =letter.toLowerCase();
 
-for (let i = 0; i < lowerLetter.length; i++) {
-    if (lowerLetter[i] === "a") {
-        count++;
+for(let i =0 ; i < lowerletter.length ; i++){
+    if(lowerletter[i] === "a"){
+        count++
     }
+   
 }
 
-console.log(count); // 3
+console.log(count);
